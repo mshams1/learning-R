@@ -29,3 +29,4 @@ my_matrix <- matrix(1:20, nrow=4, ncol=5)
 cbind() # and rbind() take a sequence of vector, matrix or data-frame arguments and combine by columns or rows, respectively.
 
 my_data <- data.frame(patients, my_matrix) # allows us to store string along numbers
+
