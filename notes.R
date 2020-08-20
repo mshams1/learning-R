@@ -16,4 +16,16 @@ x[c(2,10)] # gives the 2nd and 10th members of x
 vect <- c(foo=11,bar=2,norf=NA)
 vect["bar"] 3 gives the '2'
 
+### looking at data ###
+ls() # lists the variables
+str() # gives good information about the data
 
+### matrices and data frames ###
+# line --> vector
+# rectangular --> matrice (single calss of data) and data frame (different class of data)
+
+my_matrix <- matrix(1:20, nrow=4, ncol=5)
+
+cbind() # and rbind() take a sequence of vector, matrix or data-frame arguments and combine by columns or rows, respectively.
+
+my_data <- data.frame(patients, my_matrix) # allows us to store string along numbers
