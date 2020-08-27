@@ -13,7 +13,9 @@ b <- tibble(month = 1:4,
 #I want a to be a tibble
 a <- as.tibble(a)
 
-#Gather a into long format data
+#Gather a into long format data (same variable observed in multiple periods)
+# gather takes wide and chenges it to long 
+# spread takes long and cganges it to wide
 a <- gather(a,"mo","UR",ur1:ur4)
 a <- gather(a,"mo","UR",starts_with("ur"))
 
