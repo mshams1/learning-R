@@ -33,3 +33,5 @@ subset(df, firm == "ATB") # same as before
 subset(df, firm == "ATB", select=c(Year, Firm, BV, DIV, EPS, NewYear)) # firts rows, second columns
 
 # tibble #
+
+# salaaaaam #
